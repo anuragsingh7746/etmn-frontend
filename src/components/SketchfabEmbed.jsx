@@ -11,7 +11,8 @@ const SketchfabEmbed = ({ modelId }) => {
         frameBorder="0"
         src={`https://sketchfab.com/models/${modelId}/embed`}
         style={{ border: "none" }}
-      />
+
+      
     </div>
   );
 };
