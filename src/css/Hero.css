@@ -6,3 +6,13 @@
     left: 0;
     z-index: -1;
 }
+
+.test {
+    position: absolute;
+    top: ;
+    left: 552px;
+    top: 280px;
+    font-size: 100px;
+    font-weight: 2;
+    margin: 0px;
+}
