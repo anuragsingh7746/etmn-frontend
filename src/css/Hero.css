@@ -1,3 +1,11 @@
+.hero{
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 .landing_image {
     position: absolute;
     width: 100%;
@@ -8,11 +16,9 @@
 }
 
 .test {
-    position: absolute;
-    top: ;
-    left: 552px;
-    top: 280px;
     font-size: 100px;
     font-weight: 2;
     margin: 0px;
+    top: -65px;
 }
+

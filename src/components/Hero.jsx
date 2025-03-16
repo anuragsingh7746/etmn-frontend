@@ -3,7 +3,7 @@ import '../css/Hero.css'
 const Hero = () => {
 
     return (
-        <section>
+        <section className='hero'>
             <button className="button test">COMING SOON</button>
             <img className="landing_image" src="images/dark-bg.jpg" />
         </section>
