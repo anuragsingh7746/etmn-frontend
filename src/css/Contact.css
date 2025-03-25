@@ -1,6 +1,8 @@
 .contact {
     display: grid;
     justify-content: center;
+    color: white;
+    background: black;
 }
 
 .heading {
