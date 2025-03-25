@@ -1,0 +1,8 @@
+.contact {
+    display: grid;
+    justify-content: center;
+}
+
+.heading {
+    font-weight: 500;
+}

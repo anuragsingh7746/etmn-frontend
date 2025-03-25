@@ -23,8 +23,8 @@ const Navbar = () => {
                         <li style={{marginBottom:"15px"}}><a href="#">Marketplace</a></li>
                     </ul>
                 </li>
-                <li><a style={{whiteSpace: "nowrap"}} href="#">About Us</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a style={{whiteSpace: "nowrap"}} href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     );

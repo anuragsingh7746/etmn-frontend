@@ -1,6 +1,6 @@
 nav {
     display: flex;
-    background-color: none;
+    background-color: transparent;
 }
 
 .etmn-logo {
@@ -46,8 +46,8 @@ a {
 }
 
 a:hover::after {
-  width: 100%;
-  right: 0;
+  transform: scaleX(1);
+  transform-origin: left;
 }
 .navbar-logo:hover::after {
     width: 0%;
@@ -55,16 +55,16 @@ a:hover::after {
 }
 
 a::after {
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
   content: "";
-  display: block;
-  height: 1px;
-  right: 0;
   position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  width: 100%;
   background: white;
-  transition: width .25s ease 0s, right .25s ease 0s;
-  width: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
 }
 
 .submenu {
@@ -77,7 +77,7 @@ a::after {
     top: 35px;
     width: 100%;
     padding: 0;
-    background-color: none;
+    background-color: transparent;
     opacity: 0;
     visibility: hidden;
     transform: translateY(50px);
