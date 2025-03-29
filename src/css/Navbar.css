@@ -50,8 +50,8 @@ a:hover::after {
   transform-origin: left;
 }
 .navbar-logo:hover::after {
-    width: 0%;
-    right: 0;
+  transform: scaleX(0);
+  transform-origin: left;
 }
 
 a::after {
