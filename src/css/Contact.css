@@ -1,10 +1,48 @@
 .contact {
-    display: grid;
-    justify-content: center;
-    color: white;
-    background: black;
+  background-color: #111;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
 }
 
-.heading {
-    font-weight: 500;
+.contact h2 {
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  margin-bottom: 20px;
 }
+
+.contact-description {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 40px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 15px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  box-shadow: 0 0 0 2px #fff3;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.95rem;
+  }
+}
+
