@@ -17,17 +17,17 @@ const AboutUs = () => {
           <h2>Meet the Team</h2>
           <div className="team-grid">
             <div className="team-member">
-              <img src="https://via.placeholder.com/150" alt="Jane Doe" />
+              <img src="https://cdn.fstoppers.com/styles/large-16-9/s3/lead/2019/01/tips-for-professional-portraits.jpg" alt="Jane Doe" />
               <h3>Jane Doe</h3>
               <p>CEO & Co-Founder</p>
             </div>
             <div className="team-member">
-              <img src="https://via.placeholder.com/150" alt="John Smith" />
+              <img src="https://img.freepik.com/free-photo/closeup-young-female-professional-making-eye-contact-against-colored-background_662251-651.jpg" alt="John Smith" />
               <h3>John Smith</h3>
               <p>CTO</p>
             </div>
             <div className="team-member">
-              <img src="https://via.placeholder.com/150" alt="Emma Brown" />
+              <img src="https://img.freepik.com/free-photo/portrait-expressive-young-man-wearing-formal-suit_273609-6942.jpg?semt=ais_hybrid&w=740" alt="Emma Brown" />
               <h3>Emma Brown</h3>
               <p>Product Designer</p>
             </div>
@@ -39,9 +39,10 @@ const AboutUs = () => {
         <div className="container">
           <h2>Our Partners</h2>
           <div className="partner-logos">
-            <img src="https://via.placeholder.com/100x50?text=Partner+1" alt="Partner 1" />
-            <img src="https://via.placeholder.com/100x50?text=Partner+2" alt="Partner 2" />
-            <img src="https://via.placeholder.com/100x50?text=Partner+3" alt="Partner 3" />
+            <img src="https://3dlabstore.com.hk/wp-content/uploads/2024/06/Ultimaker-logo-icon.jpeg" alt="Ultimaker" />
+            <img src="https://www.piltovertechnologies.com/pages/images/piltover-logo-round-orange.png" alt="Piltover" />
+            <img src="https://media.licdn.com/dms/image/v2/D560BAQHZv34_EtqMJQ/company-logo_200_200/company-logo_200_200/0/1723546990982/all_about_startups_logo?e=1750291200&v=beta&t=mQOyor5xN6Flr1u6sUs1nTNRF9vLq1JHn69HD_naTCY" alt="All About Startup" />
+            <img src="https://w7.pngwing.com/pngs/821/546/png-transparent-manipal-academy-of-higher-education-sikkim-manipal-university-sikkim-manipal-institute-of-technology-manipal-university-jaipur-student-text-people-logo.png" alt="Manipal" />
           </div>
         </div>
       </section>
