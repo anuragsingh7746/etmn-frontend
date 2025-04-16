@@ -40,7 +40,7 @@ const AboutUs = () => {
           <h2>Our Partners</h2>
           <div className="partner-logos">
             <img src="https://3dlabstore.com.hk/wp-content/uploads/2024/06/Ultimaker-logo-icon.jpeg" alt="Ultimaker" />
-            <img src="https://www.piltovertechnologies.com/pages/images/piltover-logo-round-orange.png" alt="Piltover" />
+            <img src="" alt="Piltover" />
             <img src="https://media.licdn.com/dms/image/v2/D560BAQHZv34_EtqMJQ/company-logo_200_200/company-logo_200_200/0/1723546990982/all_about_startups_logo?e=1750291200&v=beta&t=mQOyor5xN6Flr1u6sUs1nTNRF9vLq1JHn69HD_naTCY" alt="All About Startup" />
             <img src="https://w7.pngwing.com/pngs/821/546/png-transparent-manipal-academy-of-higher-education-sikkim-manipal-university-sikkim-manipal-institute-of-technology-manipal-university-jaipur-student-text-people-logo.png" alt="Manipal" />
           </div>
