@@ -43,7 +43,7 @@ Whether you're transforming production workflows or pioneering future-ready educ
         </div>
       </section>
         */}
-      <section className="partners">
+      <section className="partners"> 
         <div className="container">
           <h2>Our Partners</h2>
           <div className="partner-logos">

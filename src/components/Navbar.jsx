@@ -16,11 +16,12 @@ const Navbar = () => {
                         <li style={{marginBottom:"15px"}}><a href="#">Workshops</a></li>
                     </ul>
                 </li>
+        <li><a href="#marketplace">Marketplace</a></li>
                 <li className="menu1"><a  href="#">Products</a>
                     <ul className="submenu">
                         <li><a href="#">3D Printers</a></li>
                         <li><a href="#">Filaments</a></li>
-                        <li style={{marginBottom:"15px"}}><a href="#">Marketplace</a></li>
+                        <li style={{marginBottom:"15px"}}><a href="#">Accessories</a></li>
                     </ul>
                 </li>
                 <li><a style={{whiteSpace: "nowrap"}} href="#about">About Us</a></li>
