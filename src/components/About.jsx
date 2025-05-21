@@ -7,11 +7,19 @@ const AboutUs = () => {
         <div className="container">
           <h1>About Us</h1>
           <p>
-            We are a passionate group of innovators, creators, and strategists dedicated to building impactful solutions. Our mission is to empower communities through technology and collaboration.
-          </p>
+          At ETMN Technologies, we are at the forefront of innovation in advanced manufacturing. Specializing in high-precision industrial 3D printing, our mission is to deliver unparalleled quality and accuracy in every product we manufacture. With a deep commitment to engineering excellence, we empower industries to bring their ideas to life with speed, precision, and reliability.
+
+Beyond manufacturing, ETMN Technologies is actively shaping the future of technical education. We collaborate with leading universities across India to design and deliver hands-on courses in 3D printing, augmented reality (AR), virtual reality (VR), and other emerging technologies. These programs are integrated into academic curricula, ensuring students gain practical, industry-relevant skills.
+
+In addition to curriculum-based training, we regularly conduct specialized workshops on these technologies, providing immersive learning experiences for students, educators, and professionals alike.
+
+As an authorized seller of Ultimaker 3D printers and accessories in India, we also offer world-class desktop and professional 3D printing solutions to institutions, innovators, and industries across the country.
+
+Whether you're transforming production workflows or pioneering future-ready education, ETMN Technologies stands as your reliable partner in innovation and impact.
+      </p>
         </div>
       </section>
-
+      {/*
       <section className="team">
         <div className="container">
           <h2>Meet the Team</h2>
@@ -34,7 +42,7 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
-
+        */}
       <section className="partners">
         <div className="container">
           <h2>Our Partners</h2>
